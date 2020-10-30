@@ -5,7 +5,6 @@ image = input("Drop your image here:")
 
 input_name = audio.split(".")
 output_name = input_name[0]+".mp4"
-#filename = input ("Enter a Name for your file here: ")+"_converted.mp4"
 command = f'''ffmpeg -y -loop 1 -framerate 2 -i {image} -i {audio}  -c:v libx264 -tune stillimage -c:a aac -b:a 320k -shortest -fflags +shortest -max_interleave_delta 100M {output_name}
 '''
 
