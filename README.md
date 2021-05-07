@@ -10,4 +10,4 @@ Create a video file from a single image plus an audio file with this ffmpeg-wrap
 Your file will be saved in the directory of the audio file. By default, this script creates mp4 files. 
 
 ## Dependencies
-`ffmeg`
+`ffmpeg`
