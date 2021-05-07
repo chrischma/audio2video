@@ -1,5 +1,5 @@
 # audio2video
-Create a video file from a single image plus an audio file!
+Create a video file from a single image plus an audio file with this ffmpeg-wrapper!
 
 ## Usage
 1. Run `python3 audio2video.py`
@@ -8,3 +8,6 @@ Create a video file from a single image plus an audio file!
 4. That's it. 
 
 Your file will be saved in the directory of the audio file. By default, this script creates mp4 files. 
+
+## Dependencies
+`ffmeg`
